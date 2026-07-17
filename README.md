@@ -1,0 +1,29 @@
+# ForkRecipe — Open Recipe Dataset
+
+The recipe catalog behind [ForkRecipe](https://forkrecipe.com) — "recipes with lineage."
+
+ForkRecipe treats recipes like code: every dish traces back to a canonical **Mother Recipe**,
+and every variation is a **fork** with a real diff against its parent. This repo is just the
+data layer — the recipe content itself, structured and open.
+
+## What's here
+
+916 recipes as schema-valid JS modules in [`recipes/`](./recipes), one file per dish, plus
+[`recipes/_template.js`](./recipes/_template.js) documenting the schema (ingredients with
+baker's-percentage-style ratios, structured process steps, flavor profile, cuisine/category
+tags, etc.).
+
+Content is either originally authored for ForkRecipe or adapted from public-domain sources.
+All recipes here are licensed **CC BY-SA 4.0** (see [`LICENSE`](./LICENSE)) — reuse and remix
+freely, share alike, with attribution.
+
+## What's not here
+
+This is the dataset only — not the ForkRecipe app itself (the fork/diff engine, auth, the
+AI content pipeline, admin tooling). The live product is at
+[forkrecipe.com](https://forkrecipe.com).
+
+## Author
+
+Built by [Michael Gutowski](https://www.linkedin.com/in/futurechef/) — a chef who also ships
+software. More at [chefmjg.com](https://chefmjg.com).
