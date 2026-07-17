@@ -13,6 +13,18 @@ data layer — the recipe content itself, structured and open.
 baker's-percentage-style ratios, structured process steps, flavor profile, cuisine/category
 tags, etc.).
 
+`data/` holds the small support tables the schema depends on — categories, the author
+registry, ingredient-role colors, and the actual fork lineage graph (`forks.js`) and
+per-recipe commit history (`commits.js`). `scripts/validate-recipes.js` checks every recipe
+against all of it:
+
+```
+npm run validate
+```
+
+No dependencies to install — it's plain Node. See [`CONTRIBUTING.md`](./CONTRIBUTING.md) for
+how to add or fork a recipe.
+
 Content is either originally authored for ForkRecipe or adapted from public-domain sources.
 All recipes here are licensed **CC BY-SA 4.0** (see [`LICENSE`](./LICENSE)) — reuse and remix
 freely, share alike, with attribution.

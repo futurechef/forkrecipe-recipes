@@ -1,0 +1,9 @@
+{
+  "name": "forkrecipe-recipes",
+  "private": true,
+  "type": "module",
+  "description": "Open recipe dataset behind forkrecipe.com",
+  "scripts": {
+    "validate": "node scripts/validate-recipes.js"
+  }
+}
