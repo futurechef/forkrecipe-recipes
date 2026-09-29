@@ -14,6 +14,7 @@ export default {
   activeTime: "40 min",
   totalTime: "2 hr 15 min",
   ratioSystem: "weight",
+  servings: 6,
   stars: 0,
   forks: 0,
   contributors: 1,
