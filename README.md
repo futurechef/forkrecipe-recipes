@@ -35,7 +35,15 @@ This is the dataset only — not the ForkRecipe app itself (the fork/diff engine
 AI content pipeline, admin tooling). The live product is at
 [forkrecipe.com](https://forkrecipe.com).
 
+## Licence and trademarks
+
+The recipes are **CC BY-SA 4.0** ([`LICENSE`](./LICENSE)): credit ForkRecipe and share adaptations alike.
+Copyright © 2026 [FoodML](https://foodml.xyz) and the contributors in `data/users.js`.
+
+"ForkRecipe", its logo and "FoodML" are trademarks of FoodML, and the licence doesn't cover them: say your work is
+*from* or *adapted from* the ForkRecipe dataset, but don't call it ForkRecipe. Details in [`NOTICE`](./NOTICE).
+
 ## Author
 
-Built by [Michael Gutowski](https://www.linkedin.com/in/futurechef/) — a chef who also ships
+ForkRecipe is a [FoodML](https://foodml.xyz) project, built by [Michael Gutowski](https://www.linkedin.com/in/futurechef/) — a chef who also ships
 software. More at [chefmjg.com](https://chefmjg.com).
